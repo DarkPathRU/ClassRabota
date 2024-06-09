@@ -28,7 +28,6 @@ int main() {
 	const int limit = 1000; // po zadaniu
 	const int radius = 16; // po zadaniu
 
-	int total_banok = 0;
 	for (auto i = 0; i < orders; i++) {
 		int L; //dlina
 		int W; //shirina
