@@ -46,7 +46,7 @@ int main() {
 	}
 
 	for (const auto& e : result) { 
-		cout << e.first << ":" << e.second << endl; // komy to nado alfavit poy4it :D y tebya v zadanii "d" posle "b"
+		cout << e.first << ":" << e.second << endl; //y tebya v zadanie 'd' posle 'b'. po alfavity doljna bit 'c' poetomy vivelo po drygomy no resultat takoi je kak po zadaniu
 	}
 	return 0;
 
