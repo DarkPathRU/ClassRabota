@@ -43,12 +43,11 @@ int main() {
 
 	double avg = (max_p-> second + min_p-> second) / 2.0; // 4erez to4ky ne rabotaet po4emy to, nashel v google takoi variant. prosto delenie na 2.0 ot max i min. 
 												//tak kak double poetomy 2.0
-        if(!products.empty()){
+    
 	cout << "Max product price: " << max_p->first << " : " << max_p->second << endl;
 	cout << "Min product price: " << min_p->first << " : " << min_p->second << endl;
 	cout << "Avg product price: " << avg << endl;
-	}
-
+	
 
 	vector<pair<string, double>> topProduct(products.begin(), products.end()); //sozdal vector par i zasunul tyda vse svoi key value kotorii zapisal do etogo
 
