@@ -51,7 +51,7 @@ int main() {
 
 	vector<pair<string, double>> topProduct(products.begin(), products.end()); //sozdal vector par i zasunul tyda vse svoi key value kotorii zapisal do etogo
 
-	sort(topProduct.begin(), topProduct.end(), [](const pair<string, double>&a, const pair<string, double>&b) { //zatem otsortiroval vse pari key value po vozrastaniu
+	sort(topProduct.begin(), topProduct.end(), [](const pair<string, double>&a, const pair<string, double>&b) { //zatem otsortiroval vse pari key value
 		return a.second > b.second;
 	});
 
